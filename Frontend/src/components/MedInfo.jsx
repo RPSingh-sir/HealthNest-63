@@ -6,7 +6,7 @@ function MedInfo() {
   const [info, setInfo] = useState("");
 
   const fetchInfo = async () => {
-    const res = await fetch("http://localhost:5000/medicine-info", {
+    const res = await fetch("https://healthnest-backend-5oyp.onrender.com/medicine-info", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ medicine }),

@@ -16,7 +16,7 @@ const Chatbot = () => {
     setLoading(true);
 
     try {
-      const res = await axios.post("http://localhost:5000/chat", {
+      const res = await axios.post("https://healthnest-backend-5oyp.onrender.com/chat", {
         message: symptom,
         history: history,
       });

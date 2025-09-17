@@ -55,7 +55,7 @@ const mapToProfession = (q) => {
     setLoading(true);
     try {
       const res = await fetch(
-        `http://localhost:5000/search-hospitals?lat=28.6139&lng=77.2090&query=${encodeURIComponent(
+        `https://healthnest-backend-5oyp.onrender.com/search-hospitals?lat=28.6139&lng=77.2090&query=${encodeURIComponent(
           query
         )}`
       );

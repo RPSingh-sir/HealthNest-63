@@ -11,7 +11,7 @@ function RecommendDoctor() {
 
     setLoading(true);
     try {
-      const res = await fetch("http://localhost:5000/recommend-doctor", {
+      const res = await fetch("https://healthnest-backend-5oyp.onrender.com/recommend-doctor", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ symptoms }),
