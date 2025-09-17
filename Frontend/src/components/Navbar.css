@@ -1,0 +1,86 @@
+/* Navbar container */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #222;
+  padding: 10px 30px;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  margin: 2px;
+  height: 3rem;
+  border-radius: 10px;
+  margin-right: 10px;
+
+}
+
+/* Logo Section */
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.navbar-logo img {
+  height: 48px;
+  width:49px;
+  border-radius: 50%;
+}
+
+.navbar-logo span {
+  font-size: 0.9rem;
+  margin-left: 1rem;
+  font-weight: bold;
+  color: #fafaf5;
+}
+
+/* Links Section */
+.navbar-links {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.navbar-links a {
+  color: #bbb;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s;
+}
+
+.navbar-links a:hover,
+.navbar-links a.active {
+  color: #fff;
+}
+
+/* Logout Button */
+.logout-btn {
+  background-color: #f8d210;
+  color: #222;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.logout-btn:hover {
+  background-color: #fff;
+  color: #222;
+}
+
+.buttons{
+  
+  margin-left:330px;
+  gap: 15px;
+  padding: -4px;
+}
+
+button{
+  background-color: #314f90;
+  font-size: 12px;
+  size: 10rem;
+
+}

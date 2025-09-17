@@ -1,0 +1,104 @@
+.recommend-doctor {
+  max-width: 600px;
+  margin: 5rem auto;
+  padding: 3rem 2rem;
+  border: 2px solid #ddd;
+  border-radius: 16px;
+  background: #7cb6f0;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+/* ✅ Heading aligned properly */
+.heading-doc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.heading-doc h2 {
+  margin: 0;
+  font-size: 1.6rem;
+  color: #ffffff;
+}
+
+.heading-doc img {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+}
+
+/* ✅ Textarea centered */
+.recommend-doctor textarea {
+  width: 100%;
+  max-width: 450px;
+  min-height: 100px;
+
+  background-color: #eef7ff;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  padding: 1rem;
+
+  font-size: 1rem;
+  text-align: center;
+  color: #333;
+
+  resize: vertical;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.recommend-doctor textarea:focus {
+  border-color: #0077cc;
+  box-shadow: 0 0 6px rgba(0,119,204,0.3);
+  outline: none;
+}
+
+.recommend-doctor textarea::placeholder {
+  color: #666;
+  font-style: italic;
+}
+
+/* ✅ Button centered */
+.recommend-doctor button {
+  padding: 0.8rem 1.2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+
+  background: #004080;
+  color: white;
+  cursor: pointer;
+
+  transition: background 0.3s;
+}
+
+.recommend-doctor button:hover {
+  background: #0066cc;
+}
+
+/* ✅ Result styled like MedicineInfo */
+.result {
+  margin-top: 1rem;
+  background: #f4f8fc;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 450px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.result h3 {
+  margin: 0 0 0.5rem 0;
+  color: #064c97;
+}

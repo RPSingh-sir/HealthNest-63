@@ -1,0 +1,85 @@
+/* Footer container */
+.footer {
+    width: 92.5rem;
+    height: 6rem;
+  background-color: #222;
+  color: #fff;
+  padding: 30px 20px 10px;
+  display: flex;
+  flex-direction: column;
+  margin-top: auto; /* pushes footer to bottom */
+}
+
+/* Footer content layout */
+.footer-content {
+      
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 2700px;
+  margin: 0 auto;
+  gap: 195px;
+  font-size: 0.9rem;
+}
+
+/* Individual section */
+.footer-section {
+  flex: 1;
+  min-width: 220px;
+}
+
+.footer-section h4 {
+  margin-bottom: 10px;
+  color: #f8d210;
+}
+
+/* Links */
+.footer-link,
+.footer-section a {
+  color: #bbb;
+  text-decoration: none;
+  display: block;
+  margin: 5px 0;
+  transition: color 0.3s ease;
+}
+
+.footer-link:hover,
+.footer-section a:hover {
+  color: #fff;
+}
+
+/* Social links */
+.footer-section.social a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Footer bottom */
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  border-top: 1px solid #444;
+  padding-top: 10px;
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
+/* Contact items */
+.footer-section p {
+  display: flex;
+  align-items: center;
+  gap: 8px;              /* space between icon and text */
+  margin: 5px 0;
+}
+
+/* Make links inline */
+.footer-link {
+  color: #bbb;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+  color: #fff;
+}
