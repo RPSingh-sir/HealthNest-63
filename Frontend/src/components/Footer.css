@@ -1,18 +1,19 @@
 /* Footer container */
 .footer {
-    width: 92.5rem;
-    height: 6rem;
+  width: 100%;
+  height:35vh;
   background-color: #222;
   color: #fff;
   padding: 30px 20px 10px;
   display: flex;
   flex-direction: column;
-  margin-top: auto; /* pushes footer to bottom */
+  /* border: 1px solid red; */
+  overflow: hidden;
+  /* margin-top: auto; pushes footer to bottom */
 }
 
 /* Footer content layout */
 .footer-content {
-      
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;

@@ -36,7 +36,7 @@ function RecommendDoctor() {
       </div>
 
       {/* ✅ Input box (textarea) */}
-      <textarea
+      <input
         placeholder="Enter your symptoms like fever, cough etc."
         value={symptoms}
         onChange={(e) => setSymptoms(e.target.value)}

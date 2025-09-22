@@ -97,7 +97,7 @@ const mapToProfession = (q) => {
 
       {loading && <p>Loading...</p>}
       {!loading && hospitals.length === 0 && (
-        <p style={{marginTop:"-2rem"}}>No hospitals found. Try another search.</p>
+        <p>No hospitals found. Try another search.</p>
       )}
 
       <div className="hospital-list">

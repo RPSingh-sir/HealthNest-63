@@ -31,7 +31,7 @@ function MedInfo() {
       <button onClick={fetchInfo}>Get Info</button>
 
       {info && (
-        <div className="result">
+        <div className="result-box">
           <h3>Details: </h3>
           <p>{info}</p>
         </div>

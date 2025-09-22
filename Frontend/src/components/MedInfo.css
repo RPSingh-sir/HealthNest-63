@@ -1,16 +1,17 @@
 .medicine-info {
   max-width: 600px;
-  margin: 5.6rem auto;
-  padding: 3rem 2rem;
-  border: 2px solid #ddd;
+  margin: 5px;
+  height:50vh;
+  padding: 12px 12px;
+  /* border: 2px solid black; */
   border-radius: 16px;
   background: #7cb6f0;
   box-shadow: 0 6px 18px rgba(0,0,0,0.1);
-
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  gap: 2rem;
+  flex-direction: column;
+  gap:12px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
 }
@@ -21,8 +22,11 @@
   justify-content: center;
   gap: 1rem;
   color: #fff;
-  font-size: 1.3rem;
-  font-weight: 600;
+  /* border: 1px solid black; */
+  font-size: 18px;
+  font-weight:400;
+  height:10%;
+  margin-bottom: 18px;
 }
 
 .heading_med img {
@@ -33,6 +37,9 @@
 
 /* Input field */
 .medicine-info input {
+  border: none;
+  outline: none;
+  height:4%;
   width: 100%;
   max-width: 400px;
   padding: 0.8rem 1rem;
@@ -41,7 +48,7 @@
   color: #333;
   background-color: #eef7ff;
 
-  border: 2px solid #ccc;
+  /* border: 2px solid #ccc; */
   border-radius: 8px;
 
   transition: border-color 0.3s, box-shadow 0.3s;
@@ -51,14 +58,16 @@
   border-color: #0077cc;
   box-shadow: 0 0 6px rgba(0,119,204,0.3);
   outline: none;
+  /* border: none; */
 }
 
 /* Button styling */
 .medicine-info button {
-  padding: 0.8rem 1.2rem;
-  font-size: 1rem;
+  
+  outline: none;
+  font-size: 12px;
   width: 50%;
-  max-width: 200px;
+  max-width: 100px;
   color: #fff;
   background-color: #004080;
   border: none;
@@ -72,14 +81,40 @@
 }
 
 /* Result box */
-.result {
-  padding: 1rem;
+.result-box {
+  /* border: 2px solid black; */
+  padding: 12px;
   border-radius: 8px;
+  overflow-y: scroll;
   background: #fff;
   color: #222;
-  font-size: 1.1rem;
-  font-weight: 500;
-  max-width: 500px;
+  font-size: 0.9rem;
+  font-weight: 600;
   text-align: left;
   box-shadow: inset 0 2px 6px rgba(0,0,0,0.05);
+  /* height:50%; */
+}
+
+.result-box::-webkit-scrollbar {
+  width: 8px;   /* thin scrollbar */
+  height: 8px;  
+}
+
+/* Track (background part) */
+.result-box::-webkit-scrollbar-track {
+  background: transparent;  
+  margin: 4px 0;  /* top aur bottom pe gap */
+}
+
+/* Scrollbar handle */
+.result-box::-webkit-scrollbar-thumb {
+  background: #888; 
+  border-radius: 10px;
+  border: 2px solid transparent;   /* andar ka margin effect */
+  background-clip: content-box;    /* border ko transparent rakhega */
+}
+
+/* Hover pe darker */
+.result-box::-webkit-scrollbar-thumb:hover {
+  background: #555; 
 }

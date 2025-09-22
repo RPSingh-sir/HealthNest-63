@@ -42,9 +42,9 @@ function UploadReport() {
       {/* Results Section */}
       {insights && (
         <div className="results">
-          <h3>AI Insights</h3>
+          <h3 >AI Insights</h3>
           <div className="content-box">
-            <p>{insights}</p>
+            <p style={{padding:"-26px"}}>{insights}.</p>
           </div>
         </div>
       )}

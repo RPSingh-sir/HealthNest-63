@@ -7,6 +7,7 @@ import UploadForm from "./components/UploadForm";
 import MedInfo from "./components/MedInfo";
 import Hospital from "./components/Hospital";
 import Recommend from "./components/Recommend";
+import "./App.css"
 
 function App() {
   return (

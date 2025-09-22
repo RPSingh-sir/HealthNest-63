@@ -7,13 +7,13 @@
   padding: 10px 30px;
   color: white;
   position: sticky;
-  top: 0;
-  z-index: 1000;
-  margin: 2px;
-  height: 3rem;
+  top: 5px;
+  z-index: 1;
+  height: 5vh;
+  width:96%;
   border-radius: 10px;
-  margin-right: 10px;
-
+  /* margin-right: 10px; */
+  margin-left: 15px;
 }
 
 /* Logo Section */
